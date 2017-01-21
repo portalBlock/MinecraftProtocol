@@ -6,12 +6,10 @@ import net.portalblock.mcprotocol.datatypes.VarInt;
 /**
  * Created by portalBlock on 1/16/2017.
  */
-public class BlockAction {
+public class BlockChange {
 
     private Position location;
 
-    private byte actionId, actionParam;
-
-    private VarInt blockType;
+    private VarInt blockId;
 
 }
